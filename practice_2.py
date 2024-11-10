@@ -17,8 +17,3 @@ d=len(c)
 print(d)
 print("the string which is seperated by a comma ")
 print(*c,sep=',')
-
-
-# for i in range(i,d):
-    # print(f"{c[i]},")
-# print(c)    
