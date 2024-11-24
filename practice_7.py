@@ -7,5 +7,4 @@ for i in range(x):
         b=i*j
         a.append(b)
     l.append(a)
-for a in l:
-    print(a)
+print(l)

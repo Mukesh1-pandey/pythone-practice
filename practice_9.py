@@ -1,4 +1,5 @@
 d=[]
+print("pass enter key to stop the input")
 while True:
     a=input()
     if a=="":
