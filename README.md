@@ -88,26 +88,26 @@ Then, the output should be:
 LETTERS 10
 DIGITS 3
 
-13. Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
+14. Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
 Suppose the following input is supplied to the program:
 Hello world!
 Then, the output should be:
 UPPER CASE 1
 LOWER CASE 9
 
-14. Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
+15. Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
 Suppose the following input is supplied to the program:
 9
 Then, the output should be:
 11106
 
-15. Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.
+16. Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.
 Suppose the following input is supplied to the program:
 1,2,3,4,5,6,7,8,9
 Then, the output should be:
 1,3,5,7,9
 
-16. Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
+17. Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
 D 100
 W 200
 
@@ -120,7 +120,7 @@ D 100
 Then, the output should be:
 500
 
-17. A website requires the users to input username and password to register. Write a program to check the validity of password input by users.
+18. A website requires the users to input username and password to register. Write a program to check the validity of password input by users.
 Following are the criteria for checking the password:
 - At least 1 letter between [a-z]
 - At least 1 number between [0-9]
