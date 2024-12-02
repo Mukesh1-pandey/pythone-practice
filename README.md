@@ -80,3 +80,57 @@ Notes: Assume the data is input by console.
 12. Question:
 Write a program, which will find all such numbers between 1000 and 3000 (both included) such that each digit of the number is an even number.
 The numbers obtained should be printed in a comma-separated sequence on a single line.
+
+13. Write a program that accepts a sentence and calculate the number of letters and digits.
+Suppose the following input is supplied to the program:
+hello world! 123
+Then, the output should be:
+LETTERS 10
+DIGITS 3
+
+13. Write a program that accepts a sentence and calculate the number of upper case letters and lower case letters.
+Suppose the following input is supplied to the program:
+Hello world!
+Then, the output should be:
+UPPER CASE 1
+LOWER CASE 9
+
+14. Write a program that computes the value of a+aa+aaa+aaaa with a given digit as the value of a.
+Suppose the following input is supplied to the program:
+9
+Then, the output should be:
+11106
+
+15. Use a list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers.
+Suppose the following input is supplied to the program:
+1,2,3,4,5,6,7,8,9
+Then, the output should be:
+1,3,5,7,9
+
+16. Write a program that computes the net amount of a bank account based a transaction log from console input. The transaction log format is shown as following:
+D 100
+W 200
+
+D means deposit while W means withdrawal.
+Suppose the following input is supplied to the program:
+D 300
+D 300
+W 200
+D 100
+Then, the output should be:
+500
+
+17. A website requires the users to input username and password to register. Write a program to check the validity of password input by users.
+Following are the criteria for checking the password:
+1. At least 1 letter between [a-z]
+2. At least 1 number between [0-9]
+1. At least 1 letter between [A-Z]
+3. At least 1 character from [$#@]
+4. Minimum length of transaction password: 6
+5. Maximum length of transaction password: 12
+Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.
+Example
+If the following passwords are given as input to the program:
+ABd1234@1,a F1#,2w3E*,2We3345
+Then, the output of the program should be:
+ABd1234@1
