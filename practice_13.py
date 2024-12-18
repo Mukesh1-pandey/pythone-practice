@@ -8,5 +8,5 @@ for i in a:
         the_count_digit+=1
     else:
         pass
-print(the_count_alpha)
-print(the_count_digit)        
+print("The count of alphabets:",the_count_alpha)
+print("The count of digit",the_count_digit)
